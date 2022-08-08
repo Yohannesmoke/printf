@@ -1,6 +1,4 @@
 
-#printf
-
 # _printf
 _printf is a simple custom printf function that formats and prints data to the standard output.
 # Description
@@ -61,11 +59,7 @@ int main(void)
 Copyright (c) 2022 Yohannesmoke and Tman0202
 
 
-
-
 + All the files are to be compiled on Ubuntu 14.04 LTS
 ```bash
 Compile your code with `gcc -Wall -Werror -Wextra -pedantic *.c`
 ```
-
-c
