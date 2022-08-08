@@ -16,7 +16,7 @@ The function has the following conversion specifies:
 + %x - print hexadecimal numbers in lowercase
 + %X - print hexadecimal numbers in uppercase
 + %o - print octal numbers
-+ %r - prints string in reverse order 
++ %r - prints string in reverse order
 + %R - prints string in ROT13 encoding
 + %p - print pointer addresses
 + ' ' - print a space
@@ -26,7 +26,7 @@ The function has the following conversion specifies:
 # Installation
  you can clone this repository  and use the function on your local machine.
 
-```bash 
+```bash
 git clone https://github.com/Amanuel0011/printf.git
 ```
 
@@ -35,24 +35,6 @@ git clone https://github.com/Amanuel0011/printf.git
 + All the files are to be compiled on Ubuntu 14.04 LTS
 ```bash
 Compile your code with `gcc -Wall -Werror -Wextra -pedantic *.c`
-```
-
-```c
-#include <stdio.h>
-#include "main.h"
-
-int main(void)
-{
-    int i = 10;
-    int print;
-    char *s = "printf by Teddy & Mark";
-    _printf("%d %s %c\n", i, s, 'c');
-     print =  _printf("%d", s); /* get number of characters */
-     printf("%d\n", print); /* print number of characters */
-    return 0;
-}
-
-
 ```
 
 # Copyright
